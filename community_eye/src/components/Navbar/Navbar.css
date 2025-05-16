@@ -1,0 +1,21 @@
+.nav_link{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0 15px;
+}
+.nav_button{
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.nav_button:hover{
+    background-color: #0056b3;
+}
+.nav_buttons{
+    display: none;
+}
