@@ -1,13 +1,2 @@
 @import "tailwindcss";
-@import 'leaflet/dist/leaflet.css';
 
-root {
-
-  --primary-yellow:  #FBBF24;  /*Color-name : Abia gold ,usage:primary buttons ,headers and highlights */
-  --Accent-Green : #16A34A ; /*color-name : unity Green  , usage : icons success badges,map pins */
-  --Background : #FAFAF9  ; /* color-name : ivory white , usage : page background */
-  --Text-dark : #1F2937 ; /* color-name : Heritage Black , usage : Text , borders ,constrast elements  */ 
-  --secondary-yelow : #FEF3C7; /* color-name : Softsunlight , usage : card backgrounds, secondary buttons */
-  --Muted-green: #A7f3D0 ; /* color-name : soft green , usage : muted elements */ 
-  --Alert : #DC2626; /* color-name: Errror messages, critical projects alerts */
-}
