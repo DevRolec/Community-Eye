@@ -156,7 +156,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav className={`fixed items-center justify-center top-0 left-0 w-full z-50 bg-white ${isScrolled ? "shadow-md" : ""}`}>
+    <nav className={`fixed items-center justify-center top-0 left-0 w-full z-600 bg-white ${isScrolled ? "shadow-md" : ""}`}>
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
@@ -219,8 +219,8 @@ const Navbar = () => {
               { path: "/locator", label: "Find Ward" },
               { path: "/about", label: "About" },
               { path: "/contact", label: "Contact" },
-              { path: "/signup", label: "Sign Up", style: "text-blue-600" },
-              { path: "/login", label: "Login" },
+              { path: "/auth", label: "Sign Up", style: "text-blue-600" },
+              { path: "/auth", label: "Login" },
             ].map(({ path, label, style }) => (
               <Link
                 key={path}
